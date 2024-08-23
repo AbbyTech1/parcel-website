@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>FASTER - Logistics Company Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Free HTML Templates" name="keywords" />
+    <meta content="Free HTML Templates" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark">
+      <div class="row py-2 px-lg-5">
+        <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+          <div class="d-inline-flex align-items-center text-white">
+            <small><i class="fa fa-phone-alt mr-2"></i>+012 345 6789</small>
+            <small class="px-3">|</small>
+            <small><i class="fa fa-envelope mr-2"></i>info@example.com</small>
+          </div>
+        </div>
+        <div class="col-lg-6 text-center text-lg-right">
+          <div class="d-inline-flex align-items-center">
+            <a class="text-white px-2" href="">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a class="text-white px-2" href="">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a class="text-white px-2" href="">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a class="text-white px-2" href="">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a class="text-white pl-2" href="">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0">
+      <nav
+        class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5"
+      >
+        <a
+          href="index.html"
+          class="navbar-brand ml-lg-3"
+          style="text-decoration: none"
+        >
+          <h1 class="m-0 display-5 text-uppercase" style="color: #ff4800">
+            <i class="fa fa-truck m-2"></i>Faster
+          </h1>
+        </a>
+        <button
+          class="navbar-toggler m-2"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-between px-lg-3"
+          id="navbarCollapse"
+        >
+          <div class="navbar-nav m-auto py-0">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="about.html" class="nav-item nav-link">About</a>
+            <a href="service.html" class="nav-item nav-link">Service</a>
+            <a href="price.html" class="nav-item nav-link active">Price</a>
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                id="pagesDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Pages</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+                <li><a href="blog.html" class="dropdown-item">Blog Grid</a></li>
+                <li>
+                  <a href="single.html" class="dropdown-item">Blog Detail</a>
+                </li>
+              </ul>
+            </div>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+          </div>
+          <a
+            href="#"
+            class="btn py-2 px-4 d-none d-lg-block"
+            style="background-color: #ff4800"
+            >Get A Quote</a
+          >
+        </div>
+      </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Header Start -->
+    <div class="jumbotron jumbotron-fluid mb-5">
+      <div class="container text-center py-5">
+        <h1 class="text-white display-3">Price</h1>
+        <div class="d-inline-flex align-items-center text-white">
+          <p class="m-0"><a class="text-white" href="">Home</a></p>
+          <i class="fa fa-circle px-3"></i>
+          <p class="m-0">Price</p>
+        </div>
+      </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- Pricing Plan Start -->
+    <div class="container-fluid pt-5">
+      <div class="container">
+        <div class="text-center pb-2">
+          <h6 class="text-uppercase font-weight-bold" style="color: #ff4800">
+            Pricing Plan
+          </h6>
+          <h1 class="mb-4">Affordable Pricing Packages</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-5">
+            <div class="" style="background-color: rgb(235, 235, 235)">
+              <div class="text-center p-4">
+                <h1 class="display-4 mb-0">
+                  <small
+                    class="align-top text-muted font-weight-medium"
+                    style="font-size: 22px; line-height: 45px"
+                    >$</small
+                  >500<small
+                    class="align-bottom text-muted font-weight-medium"
+                    style="font-size: 16px; line-height: 40px"
+                    >/Mo</small
+                  >
+                </h1>
+              </div>
+              <div class="text-center p-4" style="background-color: #ff4800">
+                <h3 class="m-0">Basic</h3>
+              </div>
+              <div class="d-flex flex-column align-items-center py-4">
+                <p>Up to 1,000 kg of air freight</p>
+                <p>Up to 2,000 kg of ocean freight</p>
+                <p>Basic land transport for local deliveries</p>
+                <p>Standard cargo storage for up to 30 days</p>
+                <a
+                  href=""
+                  class="btn py-2 px-4 my-2"
+                  style="background-color: #ff4800"
+                  >Order Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-5">
+            <div class="" style="background-color: rgb(235, 235, 235)">
+              <div class="text-center p-4">
+                <h1 class="display-4 mb-0">
+                  <small
+                    class="align-top text-muted font-weight-medium"
+                    style="font-size: 22px; line-height: 45px"
+                    >$</small
+                  >1,200<small
+                    class="align-bottom text-muted font-weight-medium"
+                    style="font-size: 16px; line-height: 40px"
+                    >/Mo</small
+                  >
+                </h1>
+              </div>
+              <div class="text-center p-4" style="background-color: #ff4800">
+                <h3 class="m-0">Premium</h3>
+              </div>
+              <div class="d-flex flex-column align-items-center py-4">
+                <p>Up to 2,500 kg of air freight</p>
+                <p>Up to 5,000 kg of ocean freight</p>
+                <p>Regional land transport with priority service</p>
+                <p>Extended cargo storage for up to 60 days</p>
+                <a
+                  href=""
+                  class="btn py-2 px-4 my-2"
+                  style="background-color: #ff4800"
+                  >Order Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-5">
+            <div class="" style="background-color: rgb(235, 235, 235)">
+              <div class="text-center p-4">
+                <h1 class="display-4 mb-0">
+                  <small
+                    class="align-top text-muted font-weight-medium"
+                    style="font-size: 22px; line-height: 45px"
+                    >$</small
+                  >2,500<small
+                    class="align-bottom text-muted font-weight-medium"
+                    style="font-size: 16px; line-height: 40px"
+                    >/Mo</small
+                  >
+                </h1>
+              </div>
+              <div class="text-center p-4" style="background-color: #ff4800">
+                <h3 class="m-0">Business</h3>
+              </div>
+              <div class="d-flex flex-column align-items-center py-4">
+                <p>Up to 5,000 kg of air freight</p>
+                <p>Up to 10,000 kg of ocean freight</p>
+                <p>Nationwide land transport</p>
+                <p>Premium cargo storage for up to 90 days</p>
+                <a
+                  href=""
+                  class="btn py-2 px-4 my-2"
+                  style="background-color: #ff4800"
+                  >Order Now</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Pricing Plan End -->
+
+    <!-- Team Start -->
+    <div class="container-fluid pt-5">
+      <div class="container">
+        <div class="text-center pb-2">
+          <h6 class="text-uppercase font-weight-bold" style="color: #ff4800">
+            Delivery Team
+          </h6>
+          <h1 class="mb-4">Meet Our Delivery Team</h1>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div
+              class="team card position-relative overflow-hidden border-0 mb-5"
+            >
+              <img class="card-img-top" src="img/team-1.jpg" alt="" />
+              <div class="card-body text-center p-0">
+                <div
+                  class="team-text d-flex flex-column justify-content-center"
+                  style="background-color: rgb(235, 235, 235)"
+                >
+                  <h5 class="font-weight-bold">Full Name</h5>
+                  <span>Designation</span>
+                </div>
+                <div
+                  class="team-social d-flex align-items-center justify-content-center"
+                  style="background-color: #ff4800"
+                >
+                  <a
+                    class="col-2 m-1 btn btn-outline-dark btn-social mr-2"
+                    href="#"
+                    ><i class="m-auto fab fa-twitter"></i
+                  ></a>
+                  <a
+                    class="col-2 m-1 btn btn-outline-dark btn-social mr-2"
+                    href="#"
+                    ><i class="m-auto fab fa-facebook-f"></i
+                  ></a>
+                  <a
+                    class="col-2 m-1 btn btn-outline-dark btn-social mr-2"
+                    href="#"
+                    ><i class="m-auto fab fa-linkedin-in"></i
+                  ></a>
+                  <a class="col-2 m-1 btn btn-outline-dark btn-social" href="#"
+                    ><i class="m-auto fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div
+              class="team card position-relative overflow-hidden border-0 mb-5"
+            >
+              <img class="card-img-top" src="img/team-2.jpg" alt="" />
+              <div class="card-body text-center p-0">
+                <div
+                  class="team-text d-flex flex-column justify-content-center"
+                  style="background-color: rgb(235, 235, 235)"
+                >
+                  <h5 class="font-weight-bold">Full Name</h5>
+                  <span>Designation</span>
+                </div>
+                <div
+                  class="team-social d-flex align-items-center justify-content-center"
+                  style="background-color: #ff4800"
+                >
+                  <a
+                    class="col-2 m-1 btn btn-outline-dark btn-social mr-2"
+                    href="#"
+                    ><i class="m-auto fab fa-twitter"></i
+                  ></a>
+                  <a
+                    class="col-2 m-1 btn btn-outline-dark btn-social mr-2"
+                    href="#"
+                    ><i class="m-auto fab fa-facebook-f"></i
+                  ></a>
+                  <a
+                    class="col-2 m-1 btn btn-outline-dark btn-social mr-2"
+                    href="#"
+                    ><i class="m-auto fab fa-linkedin-in"></i
+                  ></a>
+                  <a class="col-2 m-1 btn btn-outline-dark btn-social" href="#"
+                    ><i class="m-auto fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div
+              class="team card position-relative overflow-hidden border-0 mb-5"
+            >
+              <img class="card-img-top" src="img/team-3.jpg" alt="" />
+              <div class="card-body text-center p-0">
+                <div
+                  class="team-text d-flex flex-column justify-content-center"
+                  style="background-color: rgb(235, 235, 235)"
+                >
+                  <h5 class="font-weight-bold">Full Name</h5>
+                  <span>Designation</span>
+                </div>
+                <div
+                  class="team-social d-flex align-items-center justify-content-center"
+                  style="background-color: #ff4800"
+                >
+                  <a
+                    class="col-2 m-1 btn btn-outline-dark btn-social mr-2"
+                    href="#"
+                    ><i class="m-auto fab fa-twitter"></i
+                  ></a>
+                  <a
+                    class="col-2 m-1 btn btn-outline-dark btn-social mr-2"
+                    href="#"
+                    ><i class="m-auto fab fa-facebook-f"></i
+                  ></a>
+                  <a
+                    class="col-2 m-1 btn btn-outline-dark btn-social mr-2"
+                    href="#"
+                    ><i class="m-auto fab fa-linkedin-in"></i
+                  ></a>
+                  <a class="col-2 m-1 btn btn-outline-dark btn-social" href="#"
+                    ><i class="m-auto fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div
+              class="team card position-relative overflow-hidden border-0 mb-5"
+            >
+              <img class="card-img-top" src="img/team-4.jpg" alt="" />
+              <div class="card-body text-center p-0">
+                <div
+                  class="team-text d-flex flex-column justify-content-center"
+                  style="background-color: rgb(235, 235, 235)"
+                >
+                  <h5 class="font-weight-bold">Full Name</h5>
+                  <span>Designation</span>
+                </div>
+                <div
+                  class="team-social d-flex align-items-center justify-content-center"
+                  style="background-color: #ff4800"
+                >
+                  <a
+                    class="col-2 m-1 btn btn-outline-dark btn-social mr-2"
+                    href="#"
+                    ><i class="m-auto fab fa-twitter"></i
+                  ></a>
+                  <a
+                    class="col-2 m-1 btn btn-outline-dark btn-social mr-2"
+                    href="#"
+                    ><i class="m-auto fab fa-facebook-f"></i
+                  ></a>
+                  <a
+                    class="col-2 m-1 btn btn-outline-dark btn-social mr-2"
+                    href="#"
+                    ><i class="m-auto fab fa-linkedin-in"></i
+                  ></a>
+                  <a class="col-2 m-1 btn btn-outline-dark btn-social" href="#"
+                    ><i class="m-auto fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Team End -->
+
+    <!-- Testimonial Start -->
+    <div
+      id="testimonialCarousel"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div
+            class="position-relative p-4 col-8 m-auto"
+            style="background-color: rgb(235, 235, 235)"
+          >
+            <i
+              class="fa fa-3x fa-quote-right position-absolute"
+              style="top: -6px; right: 0; color: #ff4800"
+            ></i>
+            <div class="d-flex align-items-center mb-3">
+              <img
+                class="img-fluid rounded-circle"
+                src="img/testimonial-1.jpg"
+                style="width: 60px; height: 60px"
+                alt=""
+              />
+              <div class="ml-3">
+                <h6 class="font-weight-semi-bold m-0">Client Name</h6>
+                <small>- Profession</small>
+              </div>
+            </div>
+            <p class="m-0">
+              Exceptional service and timely delivery every time—our go-to for
+              all our shipping needs. Their attention to detail sets them apart.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div
+            class="position-relative p-4 col-8 m-auto"
+            style="background-color: rgb(235, 235, 235)"
+          >
+            <i
+              class="fa fa-3x fa-quote-right position-absolute"
+              style="top: -6px; right: 0; color: #ff4800"
+            ></i>
+            <div class="d-flex align-items-center mb-3">
+              <img
+                class="img-fluid rounded-circle"
+                src="img/testimonial-2.jpg"
+                style="width: 60px; height: 60px"
+                alt=""
+              />
+              <div class="ml-3">
+                <h6 class="font-weight-semi-bold m-0">Client Name</h6>
+                <small>- Profession</small>
+              </div>
+            </div>
+            <p class="m-0">
+              Reliable and efficient, they handle our cargo with the utmost
+              care, ensuring everything arrives on schedule and in perfect
+              condition.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div
+            class="position-relative p-4 col-8 m-auto"
+            style="background-color: rgb(235, 235, 235)"
+          >
+            <i
+              class="fa fa-3x fa-quote-right position-absolute"
+              style="top: -6px; right: 0; color: #ff4800"
+            ></i>
+            <div class="d-flex align-items-center mb-3">
+              <img
+                class="img-fluid rounded-circle"
+                src="img/testimonial-3.jpg"
+                style="width: 60px; height: 60px"
+                alt=""
+              />
+              <div class="ml-3">
+                <h6 class="font-weight-semi-bold m-0">Client Name</h6>
+                <small>- Profession</small>
+              </div>
+            </div>
+            <p class="m-0">
+              Top-notch service and seamless logistics from start to finish.
+              Their dedication and professionalism make them a standout choice.
+            </p>
+          </div>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#testimonialCarousel"
+        role="button"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#testimonialCarousel"
+        role="button"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+    <!-- Testimonial End -->
+
+    <!-- Blog Start -->
+    <div class="container-fluid pt-5">
+      <div class="container">
+        <div class="text-center pb-2">
+          <h6 class="text-uppercase font-weight-bold" style="color: #ff4800">
+            Our Blog
+          </h6>
+          <h1 class="mb-4">Latest From Blog</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-5">
+            <div class="position-relative">
+              <img class="img-fluid w-100" src="img/blog-1.jpg" alt="" />
+              <div
+                class="position-absolute d-flex flex-column align-items-center justify-content-center rounded-circle"
+                style="
+                  width: 60px;
+                  height: 60px;
+                  bottom: -30px;
+                  right: 30px;
+                  background-color: #ff4800;
+                "
+              >
+                <h4 class="font-weight-bold mb-n1">01</h4>
+                <small class="text-white text-uppercase">Jan</small>
+              </div>
+            </div>
+            <div
+              class=""
+              style="padding: 30px; background-color: rgb(235, 235, 235)"
+            >
+              <div class="d-flex mb-3">
+                <div class="d-flex align-items-center">
+                  <img
+                    class="rounded-circle"
+                    style="width: 40px; height: 40px"
+                    src="img/user.jpg"
+                    alt=""
+                  />
+                  <a class="text-muted ml-2" href="">John Doe</a>
+                </div>
+                <div class="d-flex align-items-center ml-4">
+                  <i
+                    class="ps-3 m-2 far fa-bookmark"
+                    style="color: #ff4800"
+                  ></i>
+                  <a class="text-muted ml-2" href="">Web Design</a>
+                </div>
+              </div>
+              <h4 class="font-weight-bold mb-3">
+                How Our Comprehensive Shipping Solutions Make a Difference
+              </h4>
+              <p>
+                In today’s fast-paced world, efficient supply chain management
+                is crucial for businesses of all sizes. We understand the
+                complexities of shipping and logistics and offer a range of
+                services designed to streamline your operations. From reliable
+                air and ocean freight to seamless land transport and secure
+                cargo storage, our solutions are tailored to meet your specific
+                needs. In this blog, we’ll explore how our integrated approach
+                can enhance your supply chain efficiency, reduce costs, and
+                improve delivery times. Discover the benefits of partnering with
+                us and how our expertise can support your business’s growth.
+              </p>
+              <a
+                class="border-bottom border-primary text-uppercase text-decoration-none"
+                href=""
+                >Read More</a
+              >
+            </div>
+          </div>
+          <div class="col-md-6 mb-5">
+            <div class="position-relative">
+              <img class="img-fluid w-100" src="img/blog-2.jpg" alt="" />
+              <div
+                class="position-absolute d-flex flex-column align-items-center justify-content-center rounded-circle"
+                style="
+                  width: 60px;
+                  height: 60px;
+                  bottom: -30px;
+                  right: 30px;
+                  background-color: #ff4800;
+                "
+              >
+                <h4 class="font-weight-bold mb-n1">01</h4>
+                <small class="text-white text-uppercase">Jan</small>
+              </div>
+            </div>
+            <div
+              class=""
+              style="padding: 30px; background-color: rgb(235, 235, 235)"
+            >
+              <div class="d-flex mb-3">
+                <div class="d-flex align-items-center">
+                  <img
+                    class="rounded-circle"
+                    style="width: 40px; height: 40px"
+                    src="img/user.jpg"
+                    alt=""
+                  />
+                  <a class="text-muted ml-2" href="">John Doe</a>
+                </div>
+                <div class="d-flex align-items-center ml-4">
+                  <i
+                    class="ps-3 m-2 far fa-bookmark"
+                    style="color: #ff4800"
+                  ></i>
+                  <a class="text-muted ml-2" href="">Web Design</a>
+                </div>
+              </div>
+              <h4 class="font-weight-bold mb-3">
+                Innovations in Air Freight, Ocean Freight, and Land Transport
+              </h4>
+              <p>
+                As the logistics industry evolves, staying ahead of the curve is
+                essential for businesses that rely on shipping. We’re committed
+                to embracing the latest innovations in air freight, ocean
+                freight, and land transport to provide you with cutting-edge
+                solutions. This blog will delve into emerging trends and
+                technologies shaping the future of shipping, including
+                advancements in tracking systems, eco-friendly practices, and
+                automated processes. Learn how these innovations can enhance
+                your shipping experience, improve efficiency, and offer greater
+                transparency in managing your shipments.
+              </p>
+              <a
+                class="border-bottom border-primary text-uppercase text-decoration-none"
+                href=""
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Blog End -->
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
+      <div class="row pt-5">
+        <div class="col-lg-7 col-md-6">
+          <div class="row">
+            <div class="col-md-6 mb-5">
+              <h3 class="mb-4" style="color: #ff4800">Get In Touch</h3>
+              <p>
+                <i class="fa fa-map-marker-alt m-2"></i>123 Street, New York,
+                USA
+              </p>
+              <p><i class="fa fa-phone-alt m-2"></i>+012 345 67890</p>
+              <p><i class="fa fa-envelope m-2"></i>info@example.com</p>
+              <div class="d-flex justify-content-start mt-4">
+                <a class="m-2 btn btn-outline-light btn-social mr-2" href="#"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a class="m-2 btn btn-outline-light btn-social mr-2" href="#"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a class="m-2 btn btn-outline-light btn-social mr-2" href="#"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a class="m-2 btn btn-outline-light btn-social" href="#"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-md-6 mb-5">
+              <h3 class="mb-4" style="color: #ff4800">Quick Links</h3>
+              <div class="d-flex flex-column justify-content-start">
+                <a class="text-white mb-2" href="#"
+                  ><i class="fa fa-angle-right m-2"></i>Home</a
+                >
+                <a class="text-white mb-2" href="#"
+                  ><i class="fa fa-angle-right m-2"></i>About Us</a
+                >
+                <a class="text-white mb-2" href="#"
+                  ><i class="fa fa-angle-right m-2"></i>Our Services</a
+                >
+                <a class="text-white mb-2" href="#"
+                  ><i class="fa fa-angle-right m-2"></i>Pricing Plan</a
+                >
+                <a class="text-white" href="#"
+                  ><i class="fa fa-angle-right m-2"></i>Contact Us</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-6 mb-5">
+          <h3 class="mb-4" style="color: #ff4800">Newsletter</h3>
+          <p>
+            Rebum labore lorem dolores kasd est, et ipsum amet et at kasd, ipsum
+            sea tempor magna tempor. Accu kasd sed ea duo ipsum. Dolor duo
+            eirmod sea justo no lorem est diam
+          </p>
+          <div class="w-100">
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control border-light"
+                style="padding: 20px"
+                placeholder="Your Email Address"
+              />
+              <div class="input-group-append">
+                <button
+                  class="btn px-4"
+                  style="
+                    height: 100%;
+                    border-radius: 0%;
+                    background-color: #ff4800;
+                  "
+                >
+                  Sign Up
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5"
+      style="border-color: #3e3e4e !important"
+    >
+      <div class="row">
+        <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
+          <p class="m-0 text-white">
+            &copy; <a href="#">Your Site Name</a>. All Rights Reserved.
+
+            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+            Designed by <a href="https://htmlcodex.com">HTML Codex</a>
+          </p>
+        </div>
+        <div class="col-lg-6 text-center text-md-right">
+          <ul class="nav d-inline-flex">
+            <li class="nav-item">
+              <a class="nav-link text-white py-0" href="#">Privacy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white py-0" href="#">Terms</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white py-0" href="#">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white py-0" href="#">Help</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg back-to-top" style="background-color: #ff4800"
+      ><i class="fa fa-angle-double-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="shared.js"></script>
+  </body>
+</html>
